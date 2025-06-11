@@ -1,0 +1,22 @@
+{
+  "name": "block-forge-editor-demo",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "devDependencies": {
+    "parcel": "^2.15.2"
+  },
+  "dependencies": {
+    "block-forge-editor": "../block-forge-editor",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "@parcel/transformer-css": {
+    "cssModules": false,
+    "drafts": {
+      "nesting": true
+    }
+  }
+}
