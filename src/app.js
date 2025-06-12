@@ -16,27 +16,21 @@ const DEFAULT_INITIAL_DATA = {
   ],
 };
 
-const originalConsoleLog = console.log;
-
 export function App() {
   useEffect(() => {
     console.log("App: component mounted");
   }, []);
-
-  const handleCancel = () => {
-    console.log("App: cancel handler called");
-    debugger;
-  };
 
   return (
     <>
       <BlockForgeEditor
         id="pisya"
         initialData={DEFAULT_INITIAL_DATA}
-        onCancel={handleCancel}
+        onCancel={() => {
+          console.log("App: cancel handler called");
+        }}
         onSave={(data) => {
-          originalConsoleLog("App: save handler called with data:", data);
-          alert(JSON.stringify(data));
+          console.log("App: save handler called with data:", data);
         }}
         onChange={(data) => {
           console.log("App: change handler called with data:", data);

@@ -1,5 +1,6 @@
 {
   "name": "block-forge-editor-demo",
+  "license": "MIT",
   "source": "src/index.html",
   "scripts": {
     "start": "parcel",
@@ -9,7 +10,7 @@
     "parcel": "^2.15.2"
   },
   "dependencies": {
-    "block-forge-editor": "../block-forge-editor",
+    "block-forge-editor": "../block-forge",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
