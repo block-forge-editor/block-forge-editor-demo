@@ -1,23 +1,19 @@
 {
   "name": "block-forge-editor-demo",
-  "license": "MIT",
   "source": "src/index.html",
+  "license": "MIT",
   "scripts": {
     "start": "parcel",
     "build": "parcel build"
   },
   "devDependencies": {
-    "parcel": "^2.15.2"
+    "buffer": "^5.5.0||^6.0.0",
+    "parcel": "^2.15.2",
+    "process": "^0.11.10"
   },
   "dependencies": {
-    "block-forge-editor": "../block-forge",
+    "@block-forge/block-forge-editor": "^1.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
-  },
-  "@parcel/transformer-css": {
-    "cssModules": false,
-    "drafts": {
-      "nesting": true
-    }
   }
 }
