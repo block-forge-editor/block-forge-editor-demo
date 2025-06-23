@@ -534,8 +534,8 @@ const DEFAULT_INITIAL_DATA = {
     },
   ],
   meta: {
-    font: "times",
-    background: "emerald-50",
+    font: "opensans",
+    background: "white",
   },
 };
 
