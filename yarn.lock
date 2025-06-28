@@ -178,10 +178,10 @@
   resolved "https://registry.yarnpkg.com/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
-"@block-forge/block-forge-editor@1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@block-forge/block-forge-editor/-/block-forge-editor-1.0.2.tgz#1713b592d97d6dcaa01773ea07541179c007ef45"
-  integrity sha512-EFztTz4AWLYrjvJut94o6VC8rXNYIEfZSbssGynumemNzk80HRijZKQpdxScNsXlWfZ4amzGnk45kT5zLK1ZsA==
+"@block-forge/block-forge-editor@1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@block-forge/block-forge-editor/-/block-forge-editor-1.1.0.tgz#937d4252ffb3f90de7abf21539e67aaed14af10d"
+  integrity sha512-1w251oBS7eGF/TchFhHCsT1yewtzRdScfO4pD/ffgO5Zu2HbNH25ONfRwUDLZUXftPo4Gn08NPEXKLTCd2Lx7g==
   dependencies:
     "@editorjs/editorjs" "^2.30.8"
     "@editorjs/list" "^2.0.8"
